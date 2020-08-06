@@ -2,3 +2,42 @@ body{
 	margin: 0;
 	background-image: url(../img/cafe1.jpg);
 }
+
+/*Header*/
+
+header{
+	background-color: beige;
+	max-width: auto;
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+
+header img{
+	width: 400px;
+}
+
+
+/*Main*/
+
+main{
+	margin: 0 auto;
+	max-width: 1080px;
+}
+
+/*LISTS*/
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+li{
+	display: inline;
+	float: left;
+	padding: 20px;
+}
+
+li p{
+	max-width: 300px;
+}
