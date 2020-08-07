@@ -55,8 +55,9 @@ div.info{
 	color:white;
 	z-index: 1;
 	position: absolute;
-	transform: translate(0%, -50%);
-	top:50%;
+  	top: 40%;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 div.info p{
 	margin:5%;
