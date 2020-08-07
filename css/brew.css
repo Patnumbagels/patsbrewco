@@ -1,21 +1,72 @@
 body{
 	margin: 0;
-	background-image: url(../img/cafe1.jpg);
-}
 
+}
+h1,h2{
+	font-family: 'Euphoria Script', cursive;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+img{
+	display:block;
+	margin:0px auto;
+	width:100%;
+}
 /*Header*/
 
 header{
-	background-color: beige;
-	max-width: auto;
+	background-color: white;
 	text-align: center;
 	padding-top:40px;
 	padding-bottom: 40px;
+	max-height: 200px;
 }
 
 header img{
-	width: 400px;
+	width: 300px;
 }
+
+
+div.hero{
+	background-image: url("../img/cafe5.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width: 100%;
+	height: 600px;
+}
+
+div.info{
+	margin:0 auto;
+	color:white;
+	display: block;
+	border:10px black;
+	text-align: center;
+	padding: 60px;
+	padding-top: 100px;
+	max-width: 600px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Main*/
@@ -23,13 +74,25 @@ header img{
 main{
 	margin: 0 auto;
 	max-width: 1080px;
+	height: 400px;
+	background-color: white;
+	padding:20px 40px 20px 40px;
+}
+
+h2{
+	font-size:40px;
+}
+
+ul h2{
+	text-align: center;
 }
 
 /*LISTS*/
 ul {
 	list-style-type: none;
+	background-color:white;
 	margin:0;
-	padding:0;
+	padding-bottom: 90px
 }
 
 li{
@@ -40,4 +103,13 @@ li{
 
 li p{
 	max-width: 300px;
+	padding-bottom: 60px;
+}
+
+footer{
+	position: relative;
+	bottom:0;
+	width: 100%;
+	padding:20px;
+	background-color:white;
 }
